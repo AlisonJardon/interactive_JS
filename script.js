@@ -38,6 +38,7 @@ console.log(hamburgerButton);
 function toggleThatMenu() {
   let menuContent = document.getElementById('navbarHeader');
   menuContent.classList.toggle('collapse');
+  //L'utilisation de classList est une alternative à la propriété element.className qui renvoie une chaine composée de la liste des classes, séparées par des espaces.
 }
 
 // Étape 3 : ajouter le 'event listener' qui concerne l'élément et qui appelle la fonction après l'action.
